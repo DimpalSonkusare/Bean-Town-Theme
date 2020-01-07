@@ -15,10 +15,16 @@ li {
     padding: 15px;
     display: inline-block;
 }
-p{
+
+.bold {
+    font-weight: bolder;
+}
+
+p {
     margin: 0;
     padding: 0;
 }
+
 a {
     color: white;
     text-decoration: none;
@@ -28,6 +34,7 @@ a {
     width: 100%;
     background-image: url("../images/party2-slider-bg.jpg");
     overflow: auto;
+    background-size: cover;
 }
 
 .menubar {
@@ -47,7 +54,7 @@ a {
 }
 
 .pink {
-    color: #d43b6b;
+    color: #e6447d;
     opacity: 1;
 }
 
@@ -61,6 +68,7 @@ a {
     text-align: center;
     padding: 40px 0px;
     font-size: 14px;
+    font-family: Barlow, Arial, Tahoma, sans-serif;
 }
 
 .2020 {
@@ -68,6 +76,8 @@ a {
 }
 
 .content {
+    width: 100%;
+    margin: 50px auto 10px auto;
     color: white;
     padding: 10px 0px;
     text-align: center;
@@ -91,29 +101,34 @@ a {
     display: block;
     margin: 10px;
 }
-.margin{
+
+.margin {
     margin: 150px 0px;
 }
 
 .bg-colr {
     background: #652e79;
 }
-.section{
-    width: 80%;
+
+.section {
+    width: 75%;
     margin: auto;
 }
-.sec-img{
+
+.sec-img {
     float: left;
     width: 50%;
     padding: 50px;
 }
-.description{
+
+.description {
     width: 50%;
     padding: 50px;
     float: left;
-    font-family: Barlow, Arial, Tahoma, sans-serif; font-family: Barlow, Arial, Tahoma, sans-serif;
+    font-family: Barlow, Arial, Tahoma, sans-serif;
 }
-.about{
+
+.about {
     color: #4bd3d4;
     font-size: 13px;
     line-height: 20px;
@@ -121,18 +136,95 @@ a {
     font-weight: 600;
     margin-bottom: 8px;
 }
-.celebrate{
+
+.celebrate {
     font-size: 50px;
     font-family: 'DM Serif Display', serif;
     line-height: 50px;
     color: white;
 }
-.white{
-    color: white;
+
+.para {
+    color: #897db3;
+    font-size: 15px;
+    line-height: 28px;
+    margin: 30px 0px 0px 0px;
+}
+
+.margin-bottom {
+    margin-bottom: 90px;
+}
+
+.image1 {
+    margin: 0px 10px 0px 0px;
+}
+
+.themecolor {
+    color: #e6447d;
+    margin: 0px 9px;
+}
+
+.margin {
+    margin: 10px 0px 50px 0px;
+}
+
+.padding {
+    color: #897db3;
+    padding: 0px 0px;
+    margin: 25px 0px;
+    display: block;
+}
+
+.time {
+    width: 60%;
+    margin: 20px auto;
+    overflow: auto;
+}
+
+.time-container {
+    width: 33.33%;
+    float: left;
+    margin: 10px 0px;
+}
+
+.days {
+    width: 100%;
     float: left;
 }
-.pink{
+
+.number {
+    text-align: center;
+    font-size: 80px;
     color: #e6447d;
-    float: left;
-    
+    font-family: Barlow, Arial, Tahoma, sans-serif;
+}
+
+.day {
+    text-align: center;
+    color: white;
+    font-size: 17px;
+    margin: 0px;
+}
+
+.font {
+    font-size: 32px;
+    line-height: 42px;
+    padding: 0px;
+    margin-top: 10px;
+}
+
+.themecolors {
+    color: #4bd3d4;
+}
+.buy{
+    width: 15%;
+    margin: 0px auto 150px auto;
+    text-align: center;
+    font-family: Barlow, Arial, Tahoma, sans-serif;
+    line-height: 28px;
+    font-size: 15px;
+    background-color: #ef4231;
+    color: white;
+    border-radius: 5px;
+     padding: 11px 20px;
 }
