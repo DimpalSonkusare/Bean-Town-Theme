@@ -228,3 +228,25 @@ a {
     border-radius: 5px;
      padding: 11px 20px;
 }
+.second-sec{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+.mag{
+    margin: 0px auto 50px auto;
+    font-size: 50px;
+}
+.dishes{
+    width: 100%;
+}
+.dish-container{
+    width: 70%;
+    margin: auto;
+    overflow: auto;
+}
+.dish{
+    width: 33.33%;
+    float: left;
+    margin-top: 50px;
+}
