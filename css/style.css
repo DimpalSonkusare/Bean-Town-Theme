@@ -20,6 +20,12 @@ li {
     font-weight: bolder;
 }
 
+.width {
+    width: 25%;
+    float: left;
+    margin: auto;
+}
+
 p {
     margin: 0;
     padding: 0;
@@ -72,12 +78,13 @@ a {
 }
 
 .2020 {
+    text-align: center;
     margin: 0px auto;
 }
 
 .content {
     width: 100%;
-    margin: 50px auto 10px auto;
+    margin: 20px auto 10px auto;
     color: white;
     padding: 10px 0px;
     text-align: center;
@@ -135,6 +142,7 @@ a {
     font-family: 'Barlow', sans-serif;
     font-weight: 600;
     margin-bottom: 8px;
+    text-align: center;
 }
 
 .celebrate {
@@ -237,26 +245,114 @@ a {
 }
 
 .mag {
-    margin: 0px auto 50px auto;
+    margin: 0px auto 130px auto;
     font-size: 50px;
 }
 
 .dishes {
     width: 100%;
-}
-
-.dish-container {
-    width: 70%;
-    margin: auto;
-    overflow: auto;
-}
-
-.dish {
-    width: 33.33%;
-    float: left;
     margin-top: 50px;
 }
 
-.image {
+.dishes-container {
+    width: 70%;
+/*    overflow: auto;*/
     margin: auto;
+}
+
+.dish {
+    padding: 10px;
+    width: 33.33%;
+    float: left;
+}
+
+.dish-container {
+    background-color: #150e2d;
+    border-radius: 40px 0px;
+}
+
+.contents {
+    padding: 10px 20px;
+}
+
+.image {
+    text-align: center;
+}
+
+.dish-name {
+    font-family: "DM Serif Display", Arial, Tahoma, sans-serif;
+    font-size: 32px;
+    line-height: 42px;
+    text-align: center;
+    color: #4bd3d4;
+}
+
+.dish-content {
+    color: #897db3;
+    font-family: Barlow, Arial, Tahoma, sans-serif;
+    font-size: 15px;
+    line-height: 28px;
+    text-align: center;
+}
+
+.extra-margin {
+    margin: 0px 0px 35px;
+}
+
+.time {
+    font-weight: 600;
+    text-align: left;
+    margin: 0px 40px;
+}
+.time-details{
+    margin: 20px 10px;
+}
+.detail{
+    color: white;
+    text-align: left;
+    padding: 0px 50px;
+}
+.extra-padding{
+    padding-bottom: 30px;
+}
+.paddingg{
+    background-color: #0c071d;
+    padding: 120px;
+}
+.section-3{
+    width: 100%;
+    margin: auto;
+    background-color: #0c071d;
+}
+.music-container{
+    width: 70%;
+    padding: 50px 0px;
+    overflow: auto;
+    margin: auto;
+    text-align: center;
+}
+.block{
+    width: 33.33%;
+    float: left;
+    margin-bottom: 20px;
+}
+.block-contain{
+    padding: 10px;
+}
+.music-img{
+    margin: 10px auto;
+}
+.eget{
+    margin: 10px auto;
+    text-align: center;
+    font-family: "DM Serif Display", Arial, Tahoma, sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+    color: white;
+}
+.eget-content{
+    color: #897db3;
+    font-family: Barlow, Arial, Tahoma, sans-serif;
+    font-size: 15px;
+    line-height: 28px;
 }
