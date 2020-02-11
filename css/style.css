@@ -256,7 +256,7 @@ a {
 
 .dishes-container {
     width: 70%;
-/*    overflow: auto;*/
+    /*    overflow: auto;*/
     margin: auto;
 }
 
@@ -304,45 +304,55 @@ a {
     text-align: left;
     margin: 0px 40px;
 }
-.time-details{
+
+.time-details {
     margin: 20px 10px;
 }
-.detail{
+
+.detail {
     color: white;
     text-align: left;
     padding: 0px 50px;
 }
-.extra-padding{
+
+.extra-padding {
     padding-bottom: 30px;
 }
-.paddingg{
+
+.paddingg {
     background-color: #0c071d;
     padding: 120px;
 }
-.section-3{
+
+.section-3 {
     width: 100%;
     margin: auto;
     background-color: #0c071d;
 }
-.music-container{
+
+.music-container {
     width: 70%;
     padding: 50px 0px;
     overflow: auto;
     margin: auto;
     text-align: center;
 }
-.block{
+
+.block {
     width: 33.33%;
     float: left;
     margin-bottom: 20px;
 }
-.block-contain{
+
+.block-contain {
     padding: 10px;
 }
-.music-img{
+
+.music-img {
     margin: 10px auto;
 }
-.eget{
+
+.eget {
     margin: 10px auto;
     text-align: center;
     font-family: "DM Serif Display", Arial, Tahoma, sans-serif;
@@ -350,34 +360,48 @@ a {
     line-height: 30px;
     color: white;
 }
-.eget-content{
+
+.eget-content {
     color: #897db3;
     font-family: Barlow, Arial, Tahoma, sans-serif;
     font-size: 15px;
     line-height: 28px;
 }
-.section-4{
+
+.section-4 {
     width: 100%;
     padding-top: 20px;
     background-color: #0c071d;
 }
-.sec-4-container{
+
+.sec-4-container {
     width: 70%;
     margin: auto;
 }
-.img-wrap-container{
+
+.img-wrap-container {
     width: 100%;
     overflow: auto;
 }
-.img-wrapper{
+
+.img-wrapper {
     width: 50%;
     float: left;
     padding: 20px;
 }
-.detail-title{
+
+.detail-title {
     padding: 20px 0px;
     font-family: "DM Serif Display", Arial, Tahoma, sans-serif;
     font-size: 32px;
     line-height: 42px;
     color: white;
+}
+.width-color{
+    width: 100%;
+    overflow:auto;
+    background-color: #0c071d;
+}
+.overflow{
+    overflow: auto;
 }
